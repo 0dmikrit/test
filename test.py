@@ -22,9 +22,6 @@ class FinishWindow(Tk):
         
     def put_widgets(self):
     	text = Label(self, text='Привет, мир!', bg='green').pack()
-
-    def quit(self):
-    	self.destroy()
        
 
 class MainWindow(Frame):
